@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+.container{
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+   padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.nav >button{
+    padding: 4px 10px;
+}
+/* banner section start here  */
+.banner-section{
+    padding: 25px 10px;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-text{
+    width: 600px
+
+}
+.banner-img{
+    width: 400px;
+    height: 400px;
+   
+}
+.banner-img img{
+    width: 350px;
+}
+
