@@ -21,6 +21,12 @@ body{
 
 .nav >button{
     padding: 4px 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.nav button:hover{
+    background-color: orangered;
+    color: white;
 }
 /* banner section start here  */
 .banner-section{
@@ -45,6 +51,20 @@ body{
 }
 .banner-img img{
     width: 350px;
+}
+.banner-section button{
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.banner-section button:hover{
+    background-color: orange;
+    padding: 12px 7px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 /* fillar card section start here  */
@@ -179,6 +199,7 @@ justify-content: center;
     width: 100%;
     
 }
+
 .donate-card{
     text-align: center;
     background-color: white;
@@ -190,6 +211,10 @@ justify-content: center;
 
 
 }
+.donate-card:hover{
+    background-color: purple;
+    color: white;
+}
 .donate-card h2{
 margin-top: 13px;
 }
@@ -199,6 +224,7 @@ textarea{
     height: 50px;
     border: none;
     border-radius: 10px;
+    text-align: center;
 }
 
 .subscribe{
@@ -242,4 +268,7 @@ textarea{
 }
 .bangladesh div{
     margin-top: 15px;
+}
+.bangladesh img{
+    margin: 10px;
 }
