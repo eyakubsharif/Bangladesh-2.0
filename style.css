@@ -47,3 +47,129 @@ body{
     width: 350px;
 }
 
+/* fillar card section start here  */
+.fillars-section{
+    padding: 30px 10px;
+
+}
+
+.fillars-cards{
+    display: flex;
+    padding: 20px 0px;
+
+}
+.fillars-cards img{
+    width: 50px;
+    padding: 5px;
+}
+.fillars-card{
+    background-color: white;
+    margin: 10px;
+    padding: 10px 7px;
+    border: 1px solid rgb(230, 216, 216);
+
+}
+
+/* vision section start here  */
+.vision-section {
+    padding-top: 40px;
+}
+.vision-section h2{
+    padding: 15px 0px;
+}
+.vision-cards{
+margin-top: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.vision-card{
+    padding: 20px 10px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.card-img{
+    width: 50px;
+}
+.card-title{
+    margin: 10px 0;
+
+}
+.card-des{
+    margin-bottom: 15px;
+}
+
+.btn{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* quote section start  */
+.quote-section{
+    margin-top: 20px;
+    background-color: white;
+   border-radius: 15px;
+   border: 1px solid rgb(228, 215, 215);
+   padding: 30px 10px;
+   
+}
+.quote-div .quote-des{
+    margin-top: -40px;
+}
+.quote-div h5{
+    margin-top: 10px;
+}
+
+/* new section stare  */
+
+   
+
+.new-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    gap: 20px;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+.news-img img{
+    width: 300px;
+    border-radius: 15px;
+}
+.news-container{
+    margin-top: 30px;
+
+}
+
+.donate-section{
+    text-align: center;
+    padding: 30px 10px;
+}
+.donate-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    width: 100%;
+    
+}
+.donate-card{
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+
+}
+.donate-card>h2{
+text-align:center;
+}
